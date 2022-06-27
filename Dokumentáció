@@ -1,4 +1,5 @@
 Program általános leírása:
+Egy reszponzív honlap, amely játékmestereknek és játékosoknak nyújt segítséget különböző generátorokkal, előre készített anyagokkal.
 
 Specifikáció és követelmény katalógus:
 
@@ -8,7 +9,7 @@ V1: Homebrew kalandok angolul, megfelelően formázva, nem letölthető módon.
 V2: Karakterötletek angolul, megfelelően formázva, nem letölthető módon.
 V3: Névgenerátor
 V4: Személyiséggenerátor
-... miegymás.
+... és még további fejlesztések.
 
 Képernyőtervek:
 
