@@ -3,6 +3,12 @@ Program általános leírása:
 Specifikáció és követelmény katalógus:
 
 Funkciómeghatározás:
+Több verzió elkészítése, feltétlenül a verziók nem éles határral elválasztva.
+V1: Homebrew kalandok angolul, megfelelően formázva, nem letölthető módon.
+V2: Karakterötletek angolul, megfelelően formázva, nem letölthető módon.
+V3: Névgenerátor
+V4: Személyiséggenerátor
+... miegymás.
 
 Képernyőtervek:
 
