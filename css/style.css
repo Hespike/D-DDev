@@ -1,5 +1,7 @@
 h1 {
     color: darkred;
+    font-size: 100px;
+    font-family: Algerian
 }
 
 footer {
@@ -8,6 +10,6 @@ footer {
     position:static;
     bottom:0;
     width:100%;
-    height:60px;   /* Height of the footer */
+    height:60px   /* Height of the footer */
 }
 
