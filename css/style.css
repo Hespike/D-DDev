@@ -3,10 +3,19 @@ h1 {
     font-size: 100px;
     font-family: Algerian
 }
-
+btn {
+    color: beige;
+    font-size: 50px;
+    font-family: Algerian
+}
 h5 {
     color: darkred;
     font-size: 40px
+}
+h6 {
+    color: darkred;
+    font-size: 40px;
+    font-family: Algerian
 }
 footer {
     background-color: beige;
