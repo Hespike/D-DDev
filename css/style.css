@@ -7,7 +7,8 @@ h1 {
 h2 {
     color: darkred;
     font-size: 40px;
-    font-family: Algerian
+    font-family: Algerian;
+    text-align: center
 }
 btn {
     color: beige;
