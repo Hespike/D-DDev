@@ -4,6 +4,10 @@ h1 {
     font-family: Algerian
 }
 
+h5 {
+    color: darkred;
+    font-size: 40px
+}
 footer {
     background-color: beige;
     text-align: center;
