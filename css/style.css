@@ -32,4 +32,19 @@ footer {
     height:60px   /* Height of the footer */
 }
 
+.button
+{
+    color: darkred;
+    font-size: 40px;
+    font-family: Algerian;
+    text-align: center;
+    background-color: #F5F5DC;
+    border: solid;
+    border-color: darkred;
+}
+
+.button:hover {
+    background-color: darkred;
+    color: beige;
+}
 
