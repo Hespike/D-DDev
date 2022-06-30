@@ -86,3 +86,7 @@ a:visited {
 }
 */
 
+#cardid {
+    overflow: auto;
+    max-height: 9rem;
+}
