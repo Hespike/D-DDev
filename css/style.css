@@ -100,14 +100,22 @@ a:visited {
     margin-right: 100px;
     text-align: justify;
 }
+
+.newstext{
+    font-family: "Times New Roman";
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
 .carddiv {
     overflow: auto;
     max-height: 205px;
     text-align: center;
 }
 
-card{
-    align-items: center;
+.newsbox{
+    border: hidden;
+    border-color: darkred;
 }
 
 ::-webkit-scrollbar {
