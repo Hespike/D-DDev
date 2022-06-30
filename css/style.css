@@ -101,6 +101,13 @@ a:visited {
     text-align: justify;
 }
 
+.Subtitle{
+    color: darkred;
+    font-size: 30px;
+    font-family: Algerian;
+    text-align: left;
+}
+
 .newstext{
     font-family: "Times New Roman";
     margin-left: 30px;
