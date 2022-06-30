@@ -94,10 +94,15 @@ a:visited {
     color: indianred;
 }
 */
-
+.longtext{
+    font-family: "Times New Roman";
+    margin-left: 100px;
+    margin-right: 100px;
+}
 .carddiv {
     overflow: auto;
     max-height: 205px;
+    text-align: center;
 }
 
 ::-webkit-scrollbar {
