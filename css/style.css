@@ -1,12 +1,12 @@
 h1 {
     color: darkred;
-    font-size: 100px;
+    font-size: 60px;
     font-family: Algerian
 }
 
 h2 {
     color: darkred;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Algerian;
     text-align: center
 }
@@ -22,7 +22,6 @@ h6 {
     font-size: 40px;
     font-family: Algerian
 }
-
 
 
 footer {
