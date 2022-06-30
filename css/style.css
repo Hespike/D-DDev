@@ -103,8 +103,10 @@ a:visited {
 
 .Subtitle{
     color: darkred;
+    font-family: "Algerian";
     font-size: 30px;
-    font-family: Algerian;
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: left;
 }
 
