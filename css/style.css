@@ -71,8 +71,8 @@ img {
 
 }
 img {
-    height: 320px;
-    width: 320px;
+    height: 400px;
+    width: 400px;
     align-items: center;
     display: flex
 }
