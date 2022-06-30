@@ -1,7 +1,8 @@
 h1 {
     color: darkred;
     font-size: 60px;
-    font-family: Algerian
+    font-family: Algerian;
+    text-align:center;
 }
 
 h2 {
