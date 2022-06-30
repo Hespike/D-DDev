@@ -10,9 +10,20 @@ h2 {
     font-family: Algerian;
     text-align: center
 }
-btn {
-    color: beige;
+
+ul {
+    color: darkred;
+    font-size: 30px;
+    font-family: Algerian
 }
+
+/* Menu style*/
+h4 {
+    color: darkred;
+    font-size: 30px;
+    font-family: Algerian
+}
+
 h5 {
     color: darkred;
     font-size: 40px
