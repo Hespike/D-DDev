@@ -55,10 +55,11 @@ img {
 
 .button
 {
-    height: 5rem;
-    width: 26rem;
+    height: 3rem;
+    width: 100%;
     color: darkred;
-    font-size: 20px;
+    font-size: 30px;
+    font-size: 100%;
     font-family: Algerian;
     text-align: center;
     background-color: #F5F5DC;
