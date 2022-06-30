@@ -106,6 +106,10 @@ a:visited {
     text-align: center;
 }
 
+card{
+    align-items: center;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
