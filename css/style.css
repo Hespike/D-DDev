@@ -46,7 +46,10 @@ footer {
     width:100%;
     height:60px   /* Height of the footer */
 }
-
+img {
+    max-height: 300px;
+    max-width: 300px;
+}
 .button
 {
     color: darkred;
