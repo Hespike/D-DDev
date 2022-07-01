@@ -36,7 +36,7 @@ h6 {
 
 ul {
     font-size: 30px;
-    font-family: Algerian
+    font-family: Algerian;
 }
 
 footer {
@@ -48,13 +48,15 @@ footer {
     height:110px;
     margin-top: 20px;
 }
-/*
-img {
-    max-height: 300px;
-    max-width: 300px;
-}
-*/
 
+/*.active.a{
+    color: red;
+    font-size: 30px;
+}*/
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: darkred;
+}
 /*Buttons*/
 .btn-outline-secondary {
     height: 5rem;
