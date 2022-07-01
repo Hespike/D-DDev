@@ -58,7 +58,7 @@ img {
 {
     height: 4rem;
     width: 100%;
-    font-size:21px;
+    font-size:1vw;
     color: darkred;
     text-align: center;
     font-family: Algerian;
@@ -97,6 +97,7 @@ img {
     background-color: darkred;
     color: beige;
 }
+
 
 .button:active {
     background-color: black;
@@ -167,8 +168,14 @@ a:visited {
 }
 
 
-@media screen and (max-width: 992px) {
-{
+@media screen and (max-width: 900px) {
+.button {
+    font-size: 3vw;
+}
+}
 
+@media screen and ( max-width:950px) {
+    .button {
+        font-size: 2vw;
     }
 }
