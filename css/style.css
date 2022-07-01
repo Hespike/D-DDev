@@ -95,6 +95,11 @@ img {
     display: flex
 }
 
+.logoimg{
+    width: 108px;
+    height: 76px;
+}
+
 
 /*text styles*/
 .longtext{
