@@ -71,20 +71,6 @@ img {
 
 }
 
-.btn {
-    height: 4rem;
-    width: 100%;
-    font-size:21px;
-    color: darkred;
-    text-align: center;
-    font-family: Algerian;
-    background-color: #F5F5DC;
-    border: solid;
-    border-color: darkred;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
 
 img {
     width: 320px;
