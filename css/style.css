@@ -1,27 +1,26 @@
 h1 {
     color: darkred;
     font-size: 60px;
-    font-family: Algerian;
+    font-family: Algerian, serif;
     text-align:center;
 }
 
 h2 {
     color: darkred;
     font-size: 30px;
-    font-family: Algerian;
+    font-family: Algerian, serif;
     text-align: center
 }
 
 h3 {
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", serif;
     font-size: 20px;
 }
 
-/* Menu style*/
 h4 {
     color: darkred;
     font-size: 40px;
-    font-family: Algerian
+    font-family: Algerian, serif
 }
 
 h5 {
@@ -31,12 +30,12 @@ h5 {
 h6 {
     color: darkred;
     font-size: 40px;
-    font-family: Algerian
+    font-family: Algerian, serif
 }
 
 ul {
     font-size: 30px;
-    font-family: Algerian;
+    font-family: Algerian, serif;
 }
 
 footer {
@@ -49,11 +48,6 @@ footer {
     margin-top: 20px;
 }
 
-/*.active.a{
-    color: red;
-    font-size: 30px;
-}*/
-
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: darkred;
 }
@@ -64,10 +58,9 @@ footer {
     /*font-size:1vw;*/
     color: darkred;
     text-align: center;
-    font-family: Algerian;
+    font-family: Algerian, serif;
     background-color: #F5F5DC;
-    border: solid;
-    border-color: darkred;
+    border: solid darkred;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -82,8 +75,7 @@ footer {
     background-color: black;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-    border: solid;
-    border-color: black;
+    border: solid black;
 }
 
 .card {
@@ -105,7 +97,7 @@ img {
 
 /*text styles*/
 .longtext{
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", serif;
     margin-left: 100px;
     margin-right: 100px;
     text-align: justify;
@@ -113,7 +105,7 @@ img {
 
 .subtitle{
     color: darkred;
-    font-family: "Algerian";
+    font-family: "Algerian", serif;
     font-size: 30px;
     margin-left: 100px;
     margin-right: 100px;
@@ -121,7 +113,7 @@ img {
 }
 
 .newstext{
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", serif;
     margin-left: 30px;
     margin-right: 30px;
     text-align: justify;
@@ -129,14 +121,12 @@ img {
 .cardtext {
     overflow: auto;
     max-height: 180px;
-    text-align: center;
     text-align: justify;
     padding-right: 10px;
 }
 
 .newsbox{
-    border: hidden;
-    border-color: darkred;
+    border: hidden darkred;
 }
 
 ::-webkit-scrollbar {
