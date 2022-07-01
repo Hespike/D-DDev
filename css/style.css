@@ -89,8 +89,8 @@ img {
 }
 
 img {
-    width: 320px;
-    height: 320px;
+ /*   width: 320px;
+    height: 320px;*/
     align-items: center;
     display: flex
 }
