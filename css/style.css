@@ -55,11 +55,10 @@ img {
 }
 */
 
-.button
-{
+.button {
     height: 5rem;
     width: 100%;
-    font-size:1vw;
+    /*font-size:1vw;*/
     color: darkred;
     text-align: center;
     font-family: Algerian;
@@ -72,6 +71,24 @@ img {
 
 }
 
+.btn-outline-secondary {
+    height: 5rem;
+    width: 100%;
+    /*font-size:1vw;*/
+    color: darkred;
+    text-align: center;
+    font-family: Algerian;
+    background-color: #F5F5DC;
+    border: solid;
+    border-color: darkred;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card {
+    box-shadow:#451010 8px 10px
+}
 
 img {
     width: 320px;
@@ -80,13 +97,13 @@ img {
     display: flex
 }
 
-.button:hover {
+.btn:hover {
     background-color: darkred;
     color: beige;
 }
 
 
-.button:active {
+.btn:active {
     background-color: black;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -122,7 +139,7 @@ a:visited {
     margin-right: 30px;
     text-align: justify;
 }
-.carddiv {
+.cardtext {
     overflow: auto;
     max-height: 180px;
     text-align: center;
