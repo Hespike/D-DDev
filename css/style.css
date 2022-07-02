@@ -157,7 +157,7 @@ img {
 }
 .cardtext {
     overflow: auto;
-    max-height: 180px;
+    max-height: 150px;
     text-align: justify;
     padding-right: 10px;
 }
@@ -173,7 +173,7 @@ img {
 /* Track */
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-right: 2px;
 }
 
