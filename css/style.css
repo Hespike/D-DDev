@@ -33,6 +33,10 @@ h6 {
     font-family: Algerian, serif
 }
 
+body {
+    background-image: url("../img/Paper.jpg");
+}
+
 ul {
     font-size: 30px;
     font-family: Algerian, serif;
