@@ -1,5 +1,5 @@
-const names = ["Thomas Perry", "Jason Copper", "Amicia de Morel", "Coal Redroc", "Kaiser Harrow", "Sebastian Lowell", "Mason","Aran"];
-const dwarfnames = ["Tokdor", "Kavhrak Rockgrinder", "Trudin Bellowrest","Horek Stonebound"];
+const names = ["Amicia de Morel","Aran","Coal Redroc","Jason Copper","Kaiser Harrow","Mason","Sebastian Lowell","Thomas Perry"];
+const dwarfnames = ["Horek Stonebound","Kavhrak Rockgrinder","Tokdor","Trudin Bellowrest"];
 
 function generate(){
 let text = "";
