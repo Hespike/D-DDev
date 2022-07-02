@@ -79,10 +79,39 @@ footer {
     border: solid black;
 }
 
+.charactersbtn {
+    height: 5rem;
+    width: 100%;
+    font-size:2rem;
+    /*font-size:1vw;*/
+    color: darkred;
+    text-align: center;
+    font-family: Algerian, serif;
+    background-color: #F5F5DC;
+    border: solid darkred;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.charactersbtn:hover {
+    background-color: darkred;
+    color: beige;
+    border: solid black
+}
+
+.charactersbtn:active {
+    background-color: darkred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    border: solid black;
+}
+
 .card {
-    box-shadow:#451010 8px 10px;
-    border:solid darkred;
-    height:40rem
+    /*border:solid darkred; */
+    height:40rem;
+    border-width: 10px;
+    border-style: groove;
+    border-color: darkred
 }
 
 
