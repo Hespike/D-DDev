@@ -32,6 +32,11 @@ h6 {
     font-size: 40px;
     font-family: Algerian, serif
 }
+/*jvIDk*/
+#generaltnevek{
+    font-size: 30px;
+    font-family:Algerian;
+}
 
 body {
     background-image: url("../img/Paper.jpg");
