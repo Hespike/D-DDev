@@ -10,7 +10,7 @@ let text = "";
     for (let i = 1; i <= 5; i++) {
         text += dwarfnames[generateRandomInteger(dwarfnames.length)-1] + "<br>";
     }
-  */
+*/
 /*
     for (let i = 1; i <= 5; i++) {
             text += names[generateRandomInteger(names.length) - 1] + "<br>";
@@ -36,7 +36,6 @@ let text = "";
     document.getElementById("generaltnevek").innerHTML = text;
 
 }
-
 
 
 /*Generator Function*/
