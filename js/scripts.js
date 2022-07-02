@@ -1,5 +1,5 @@
-const names = ["Thomas", "Jason Copper", "Amicia de Morel", "Coal Redroc", "Kaiser Harrow", "Sebastian Lowell", "Mason","Aran"];
-const dwarfnames = ["HajduTamas", "Bolin", "Grolin", "Gimli","Incifinci"];
+const names = ["Thomas Perry", "Jason Copper", "Amicia de Morel", "Coal Redroc", "Kaiser Harrow", "Sebastian Lowell", "Mason","Aran"];
+const dwarfnames = ["Tokdor", "Kavhrak Rockgrinder", "Trudin Bellowrest","Horek Stonebound"];
 
 function generate(){
 let text = "";
@@ -21,9 +21,6 @@ let text = "";
         }
     */
 
-
-
-
     for (let i = 1; i <= 5; i++) {
         let penzerme =  generateRandomInteger(2);
 
@@ -34,7 +31,6 @@ let text = "";
         text += dwarfnames[generateRandomInteger(dwarfnames.length)-1] + "<br>";
         }
     }
-
 
 
     document.getElementById("generaltnevek").innerHTML = text;
