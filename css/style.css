@@ -109,7 +109,7 @@ footer {
 .card {
     /*border:solid darkred; */
     height:40rem;
-    border-width: 10px;
+    border-width: 15px;
     border-style: groove;
     border-color: darkred
 }
