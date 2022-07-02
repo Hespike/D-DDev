@@ -1,4 +1,4 @@
-const names = ["Thomas", "Jason", "Amicia de Morel", "Coal", "Kaiser", "Sebastian", "ZoliBoii","Aran","Tamásgay"];
+const names = ["Thomas", "Jason Copper", "Amicia de Morel", "Coal Redroc", "Kaiser Harrow", "Sebastian Lowell", "Mason","Aran"];
 const dwarfnames = ["HajduTamas", "Bolin", "Grolin", "Gimli","Incifinci"];
 
 function generate(){
