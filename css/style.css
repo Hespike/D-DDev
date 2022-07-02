@@ -113,7 +113,11 @@ footer {
     border-style: groove;
     border-color: darkred
 }
-
+.card-body {
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: darkred
+}
 
 img {
     width: 320px;
