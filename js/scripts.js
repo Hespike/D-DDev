@@ -40,6 +40,7 @@ let text = "";
 
 
     document.getElementById("generaltnevek").innerHTML = text;
+
 }
 
 function generateRandomInteger(max) {
