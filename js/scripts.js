@@ -1,9 +1,7 @@
 const names = ["Thomas", "Jason", "Amicia de Morel", "Coal", "Kaiser", "Sebastian", "ZoliBoii","Aran","Tamásgay"];
-
 const dwarfnames = ["HajduTamas", "Bolin", "Grolin", "Gimli",];
 
 function generate(){
-
 let text = "";
 /*
     for (let i = 1; i <= 5; i++) {
@@ -43,6 +41,9 @@ let text = "";
 
 }
 
+
+
+/*Generator Function*/
 function generateRandomInteger(max) {
     return Math.floor(Math.random() * max) + 1;
 }
