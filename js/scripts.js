@@ -1,5 +1,5 @@
 const names = ["Thomas", "Jason", "Amicia de Morel", "Coal", "Kaiser", "Sebastian", "ZoliBoii","Aran","Tamásgay"];
-const dwarfnames = ["HajduTamas", "Bolin", "Grolin", "Gimli",];
+const dwarfnames = ["HajduTamas", "Bolin", "Grolin", "Gimli","Incifinci"];
 
 function generate(){
 let text = "";
