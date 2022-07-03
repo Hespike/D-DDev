@@ -10,19 +10,10 @@ function generate() {
 
     for (let i = 1; i <= 10; i++) {
         newgeneratedname = allnames[generateRandomInteger(allnames.length) - 1];
-        for (let z = 1; z <= i; z++) {
-            console.log(i)
-            console.log(z)
-            console.log(generatednames[i-1]);
-            console.log(newgeneratedname)
             if (generatednames.includes(newgeneratedname)) {
-                i--
-                break;
+                i--;
             } else {
                 generatednames[i - 1] = newgeneratedname;
-                break;
-            }
-        break;
         }
     }
 
