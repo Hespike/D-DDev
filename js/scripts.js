@@ -28,7 +28,7 @@ function generatecharacter() {
     document.getElementById("generaltclassrace").innerHTML = "Your character could be a/an " + generatedrace + " " + generatedclass + " whose name is " + generatednames;
 }
 
-function generate() {
+function genrandomnames() {
     let text = "";
     let newgeneratedname = "";
 
@@ -43,7 +43,7 @@ function generate() {
     for (let y = 1; y <= 10; y++) {
         text += generatednames[y-1] + "<br>";
     }
-    document.getElementById("generaltnevek").innerHTML = text;
+    document.getElementById("genrandomnames").innerHTML = text;
 }
 
 
