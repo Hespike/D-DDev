@@ -1,6 +1,6 @@
-const humannames = ["Amicia de Morel","Aran","Coal Redroc","Jason Copper","Kaiser Harrow","Mason","Sebastian Lowell","Thomas Perry"];
+const humannames = ["Amicia de Morel","Aran","Atticus Chain","Coal Redroc","Jason Copper","Kaiser Harrow","Mason","Sebastian Lowell","Thomas Perry"];
 const dwarfnames = ["Horek Stonebound","Kavhrak Rockgrinder","Tokdor","Trudin Bellowrest"];
-const elfnames = ["Na Io", "Vala Nailo", "Qia'lenda"]
+const elfnames = ["Na Io","Qia'Lenda","Umbra'Dal","Vala Nailo"]
 const allnames = humannames.concat(dwarfnames,elfnames);
 
 function generate(){
@@ -52,5 +52,6 @@ function generateRandomInteger(max) {
 }
 
 function generateRandomIntegernorepeat (max){
-    return humannames.splice(Math.floor(Math.random() * max),1,1);
+    return humannames.splice(Math.floor(Math.random() * max),1);
+
 }
