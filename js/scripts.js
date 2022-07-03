@@ -2,14 +2,39 @@ const humannames = ["Amicia de Morel","Aran","Atticus Chain","Coal Redroc","Jaso
 const dwarfnames = ["Horek Stonebound","Kavhrak Rockgrinder","Tokdor","Trudin Bellowrest"];
 const elfnames = ["Na Io","Qia'Lenda","Umbra'Dal","Vala Nailo"]
 const allnames = humannames.concat(dwarfnames,elfnames);
+const generatednames = ["1","2","3","4","5","6","7","8","9","10"];
 
-function generate(){
-let text = "";
+function generate() {
+    let text = "";
+    let newgeneratedname = "";
 
+    for (let i = 1; i <= 10; i++) {
+        newgeneratedname = allnames[generateRandomInteger(allnames.length) - 1];
+        for (let z = 1; z <= i; z++) {
+            console.log(i)
+            console.log(z)
+            console.log(generatednames[i-1]);
+            console.log(newgeneratedname)
+            if (generatednames.includes(newgeneratedname)) {
+                i--
+                break;
+            } else {
+                generatednames[i - 1] = newgeneratedname;
+                break;
+            }
+        break;
+        }
+    }
+
+    for (let y = 1; y <= 10; y++) {
+        text += generatednames[y-1] + "<br>";
+    }
+
+/*
     for (let i = 1; i <= 5; i++) {
         text += allnames[generateRandomInteger(allnames.length)-1] + "<br>";
     }
-
+*/
     /*
     for (let i = 1; i <= 5; i++) {
         text += dwarfnames[generateRandomInteger(dwarfnames.length)-1] + "<br>";
