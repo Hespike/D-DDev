@@ -1,12 +1,16 @@
-const names = ["Amicia de Morel","Aran","Coal Redroc","Jason Copper","Kaiser Harrow","Mason","Sebastian Lowell","Thomas Perry"];
+const humannames = ["Amicia de Morel","Aran","Coal Redroc","Jason Copper","Kaiser Harrow","Mason","Sebastian Lowell","Thomas Perry"];
 const dwarfnames = ["Horek Stonebound","Kavhrak Rockgrinder","Tokdor","Trudin Bellowrest"];
+const elfnames = ["Na Io", "Vala Nailo", "Qia'lenda"]
+const allnames = humannames.concat(dwarfnames,elfnames);
 
 function generate(){
 let text = "";
-/*
+
     for (let i = 1; i <= 5; i++) {
-        text += names[generateRandomInteger(names.length)-1] + "<br>";
+        text += allnames[generateRandomInteger(allnames.length)-1] + "<br>";
     }
+
+    /*
     for (let i = 1; i <= 5; i++) {
         text += dwarfnames[generateRandomInteger(dwarfnames.length)-1] + "<br>";
     }
@@ -20,7 +24,7 @@ let text = "";
             text += dwarfnames[generateRandomInteger(dwarfnames.length)-1] + "<br>";
         }
     */
-
+/*
     for (let i = 1; i <= 5; i++) {
         let penzerme =  generateRandomInteger(2);
 
@@ -31,14 +35,22 @@ let text = "";
         text += dwarfnames[generateRandomInteger(dwarfnames.length)-1] + "<br>";
         }
     }
-
-
+*/
     document.getElementById("generaltnevek").innerHTML = text;
 
 }
 
 
 /*Generator Function*/
+/*
 function generateRandomInteger(max) {
     return Math.floor(Math.random() * max) + 1;
+    */
+
+function generateRandomInteger(max) {
+    return Math.floor(Math.random() * max) + 1;
+}
+
+function generateRandomIntegernorepeat (max){
+    return humannames.splice(Math.floor(Math.random() * max),1,1);
 }
