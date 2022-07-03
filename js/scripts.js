@@ -8,16 +8,24 @@ const dndclass = ["Artificer","Barbarian","Bard","Blood Hunter","Cleric","Druid"
 const dndrace = ["Dragonborn","Dwarf","Elf","Gnome","Half-Elf","Half-Orc","Halfling","Human","Tiefling","Aarakocra","Aasimar","Fairy","Firbolg","Genasi","Gith","Goliath","Harengon","Kenku","Locathah","Owlin","Tabaxi","Tortle","Triton","Verdan","Bugbear","Centaur","Goblin","Grung","Hobgoblin","Kobold","Lizardfolk","Minotaur","Orc","Yuan-Ti","Pureblood","Autognome","Dhamphir","Giff","Hadozee","Hexblood","Fairy","Kender","Owlfolk","Plasmoid","Rabbitfolk","Reborn","Revenant","Thri-Kreen","Eberron","Changeling","Kalashtar","Shifter","Warforged","Aetherborn","Aven","Khenra","Kor","Merfolk","Naga","Siren","Vampire","Dhamphir","Hexblood","Reborn","Ravnica","Loxodon","Simic","Hybrid","Vedalken","Viashino","Theros","Leonin","Satyr"];
 
 function generatecharacter() {
-    let text ="";
-    let generatedclass ="";
-    let generatedrace ="";
+    let generatedclass =dndclass[generateRandomInteger(dndclass.length)-1];
+    let generatedrace =dndrace[generateRandomInteger(dndrace.length)-1];
+    let generatednames =allnames[generateRandomInteger(allnames.length)-1];
 
-    generatedclass = dndclass[generateRandomInteger(dndclass.length)-1];
+    switch(generatedrace) {
+        case "Dragonborn":
+            generatednames =dragonbornnames[generateRandomInteger(dragonbornnames.length)-1];
+            break;
+        case "Dwarf":
+            generatednames =dwarfnames[generateRandomInteger(dwarfnames.length)-1];
+            break;
+        case "Elf":
+            generatednames =elfnames[generateRandomInteger(elfnames.length)-1];
+            break;
 
-    generatedrace = dndrace[generateRandomInteger(dndrace.length)-1];
+    }
 
-text += "A te karaktered lehetne egy" + " " + generatedrace + " " + generatedclass + "!";
-console.log(text);
+    document.getElementById("generaltclassrace").innerHTML = "Your character could be a/an " + generatedrace + " " + generatedclass + " whose name is " + generatednames;
 }
 
 function generate() {
@@ -37,6 +45,7 @@ function generate() {
     }
     document.getElementById("generaltnevek").innerHTML = text;
 }
+
 
 
 /*Generator Function*/
