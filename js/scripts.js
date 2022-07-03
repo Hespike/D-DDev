@@ -16,53 +16,14 @@ function generate() {
                 generatednames[i - 1] = newgeneratedname;
         }
     }
-
     for (let y = 1; y <= 10; y++) {
         text += generatednames[y-1] + "<br>";
     }
-
-/*
-    for (let i = 1; i <= 5; i++) {
-        text += allnames[generateRandomInteger(allnames.length)-1] + "<br>";
-    }
-*/
-    /*
-    for (let i = 1; i <= 5; i++) {
-        text += dwarfnames[generateRandomInteger(dwarfnames.length)-1] + "<br>";
-    }
-*/
-/*
-    for (let i = 1; i <= 5; i++) {
-            text += names[generateRandomInteger(names.length) - 1] + "<br>";
-        }
-    for (let i = 1; i <= 5; i++) {
-
-            text += dwarfnames[generateRandomInteger(dwarfnames.length)-1] + "<br>";
-        }
-    */
-/*
-    for (let i = 1; i <= 5; i++) {
-        let penzerme =  generateRandomInteger(2);
-
-        if (penzerme == 1) {
-            text += names[generateRandomInteger(names.length) - 1] + "<br>";
-        }
-        else if(penzerme == 2){
-        text += dwarfnames[generateRandomInteger(dwarfnames.length)-1] + "<br>";
-        }
-    }
-*/
     document.getElementById("generaltnevek").innerHTML = text;
-
 }
 
 
 /*Generator Function*/
-/*
-function generateRandomInteger(max) {
-    return Math.floor(Math.random() * max) + 1;
-    */
-
 function generateRandomInteger(max) {
     return Math.floor(Math.random() * max) + 1;
 }
