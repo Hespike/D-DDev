@@ -34,7 +34,12 @@ h6 {
 }
 /*jvIDk*/
 
-#genrandomnames{
+#genrannames{
+    font-size: 30px;
+    font-family:Algerian, serif;
+    text-align:center;
+}
+#genranhumannames{
     font-size: 30px;
     font-family:Algerian, serif;
     text-align:center;
