@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Maps - Role Play Repository</title>
+    <title>Frontpage - Role Play Repository</title>
     <!-- Bootstraphez kell -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- style.css-hez kell -->
@@ -31,7 +31,7 @@
                     <a class="nav-link" href="characters.html">Characters</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="maps.html">Maps</a>
+                    <a class="nav-link" href="maps.html">Maps</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,7 +44,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link disabled">Stop D&D</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
@@ -55,7 +55,16 @@
     </div>
 </nav>
 
-<h1>Fantasy Maps</h1>
+<p id="generaltclassrace"></p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <button class="charactersbtn" type="button" onclick="generatecharacter()">Generate characters</button>
+        </div>
+    </div>
+</div>
+
 
 <!-- Lábléc -->
 <footer>
@@ -63,7 +72,7 @@
     <p><a href="copyright.html">Copyright Information</a></p>
     <p><a href="mailto:sardi.andras@gmail.com">sardi.andras@gmail.com</a></p>
 </footer>
-
+<script src="js/scripts.js"></script>
 </body>
 </html>
 <!-- Bootstraphez kell -->
