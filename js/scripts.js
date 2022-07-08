@@ -49,7 +49,7 @@ function genranhumannames() {
     let text = "";
     let newgeneratedname = "";
 
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 9; i++) {
         newgeneratedname = humannames[generateRandomInteger(humannames.length) - 1];
         if (generatednames.includes(newgeneratedname)) {
             i--;
@@ -57,12 +57,11 @@ function genranhumannames() {
             generatednames[i - 1] = newgeneratedname;
         }
     }
-    for (let y = 1; y <= 10; y++) {
+    for (let y = 1; y <= 9; y++) {
         text += generatednames[y-1] + "<br>";
     }
     document.getElementById("genranhumannames").innerHTML = text;
 }
-
 
 function genrandomstat() {
     let stats = [statroll(),statroll(),statroll(),statroll(),statroll(),statroll()];
