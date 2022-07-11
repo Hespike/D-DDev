@@ -76,6 +76,10 @@ footer {
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: darkred;
 }
+
+.navbar-expand-lg{
+    background-color: #F5F5DC;
+}
 /*Buttons*/
 .btn-outline-secondary {
     height: 5rem;
