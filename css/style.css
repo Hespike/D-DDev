@@ -32,7 +32,10 @@ h6 {
     font-size: 40px;
     font-family: Algerian, serif
 }
-/*jvIDk*/
+
+p {
+    margin-bottom: 0;
+}
 
 #genrannames{
     font-size: 30px;
@@ -66,7 +69,7 @@ footer {
     position:static;
     bottom:0;
     width:100%;
-    height:110px;
+    height:80px;
     margin-top: 20px;
 }
 

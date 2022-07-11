@@ -71,7 +71,6 @@ function genrandomstat() {
     let int = statroll();
     let wis = statroll();
     let cha = statroll();
-    /*console.log (str + " " + dex + " " + con  + " " + int + " " + wis + " " + cha);*/
 console.log(stats)
 }
 
