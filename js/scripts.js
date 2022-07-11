@@ -1,5 +1,5 @@
 const humannames = ["Amicia de Morel","Aran","Atticus Chain","Coal Redroc","Jason Copper","Kaiser Harrow","Mason","Sebastian Lowell","Thomas Perry","Alexander Bolt","Scarlet 'Scar' Dust"];
-const dwarfnames = ["Horek Stonebound","Kavhrak Rockgrinder","Tokdor","Trudin Bellowrest"];
+const dwarfnames = ["Horek Stonebound","Kavhrak Rockgrinder","Tokdor","Trudin Bellowrest","Gorin Stoneminer","Rorik Redbeard","Hrevok Whiteshield","Kavhrak Ironaxe","Hruek Beerbelly","Tronek Yellowbeard","Hluar Thunderhammer","Tobek Shortleg"];
 const elfnames = ["Na Io","Qia'Lenda","Umbra'Dal","Vala Nailo"]
 const allnames = humannames.concat(dwarfnames,elfnames);
 const generatednames = ["1","2","3","4","5","6","7","8","9"];
@@ -60,7 +60,25 @@ function genranhumannames() {
     for (let y = 1; y <= 10; y++) {
         text += generatednames[y-1] + "<br>";
     }
-    document.getElementById("genranhumannames").innerHTML = text;
+    document.getElementById("generatednames").innerHTML = text;
+}
+
+function genrandwarfnames() {
+    let text = "";
+    let newgeneratedname = "";
+
+    for (let i = 1; i <= 10; i++) {
+        newgeneratedname = dwarfnames[generateRandomInteger(dwarfnames.length) - 1];
+        if (generatednames.includes(newgeneratedname)) {
+            i--;
+        } else {
+            generatednames[i - 1] = newgeneratedname;
+        }
+    }
+    for (let y = 1; y <= 10; y++) {
+        text += generatednames[y-1] + "<br>";
+    }
+    document.getElementById("generatednames").innerHTML = text;
 }
 
 function genrandomstat() {

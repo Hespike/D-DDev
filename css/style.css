@@ -37,12 +37,7 @@ p {
     margin-bottom: 0;
 }
 
-#genrannames{
-    font-size: 30px;
-    font-family:Algerian, serif;
-    text-align:center;
-}
-#genranhumannames{
+#generatednames{
     font-size: 30px;
     font-family:Algerian, serif;
     text-align:center;
