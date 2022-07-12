@@ -3,8 +3,9 @@ const humanmalenames = ["Amicia de Morel","Aran","Atticus Chain","Coal Redroc","
 const dwarfmalenames = ["Horek Stonebound","Kavhrak Rockgrinder","Tokdor","Trudin Bellowrest","Gorin Stoneminer","Rorik Redbeard","Hrevok Whiteshield","Kavhrak Ironaxe","Hruek Beerbelly","Tronek Yellowbeard","Hluar Thunderhammer","Tobek Shortleg"];
 const dwarffemalenames = ["Luria Stonebound","Eril Rockgrinder","Tokdor","Trudin Bellowrest","Gorin Stoneminer","Rorik Redbeard","Hrevok Whiteshield","Kavhrak Ironaxe","Hruek Beerbelly","Tronek Yellowbeard","Hluar Thunderhammer","Tobek Shortleg"];
 
-const elfnames = ["Na Io","Qia'Lenda","Umbra'Dal","Vala Nailo","Vulas Olafiel","Folre Qinrora", "Eluna Pertic",""]
-const allnames = humanmalenames.concat(humanfemalenames,dwarfmalenames,dwarffemalenames,elfnames);
+const elfmalenames = ["Na Io","Qia'Lenda","Umbra'Dal","Vala Nailo","Vulas Olafiel","Folre Qinrora", "Eluna Pertic","Jonathan","Illithor Umebella","Akkar Sylleth","Myrdin Cralynn","Eldaerenth Xyrgella","Ayen Sarmoira"]
+const elffemalenames = ["Na Io","Qia'Lenda","Umbra'Dal","Vala Nailo","Vulas Olafiel","Folre Qinrora", "Eluna Pertic","Jonathan","Lőrinc","Feri","Aneirin Krisberos","Vestele Xyrdithas","Nueleth Phitoris","Ameria Carjyre"]
+const allnames = humanmalenames.concat(humanfemalenames,dwarfmalenames,dwarffemalenames,elfmalenames,elffemalenames);
 const generatednames = ["1","2","3","4","5","6","7","8","9"];
 
 const dndclass = ["Artificer","Barbarian","Bard","Blood Hunter","Cleric","Druid","Fighter","Monk","Paladin","Ranger","Rogue","Sorcerer","Warlock","Wizard"];
@@ -119,6 +120,44 @@ function genrandwarfmalenames() {
     }
     document.getElementById("generatednames").innerHTML = text;
 }
+
+
+function genranelffemalenames() {
+    let text = "";
+    let newgeneratedname = "";
+
+    for (let i = 1; i <= 10; i++) {
+        newgeneratedname = elffemalenames[generateRandomInteger(elffemalenames.length) - 1];
+        if (generatednames.includes(newgeneratedname)) {
+            i--;
+        } else {
+            generatednames[i - 1] = newgeneratedname;
+        }
+    }
+    for (let y = 1; y <= 10; y++) {
+        text += generatednames[y-1] + "<br>";
+    }
+    document.getElementById("generatednames").innerHTML = text;
+}
+
+function genranelfmalenames() {
+    let text = "";
+    let newgeneratedname = "";
+
+    for (let i = 1; i <= 10; i++) {
+        newgeneratedname = elfmalenames[generateRandomInteger(elfmalenames.length) - 1];
+        if (generatednames.includes(newgeneratedname)) {
+            i--;
+        } else {
+            generatednames[i - 1] = newgeneratedname;
+        }
+    }
+    for (let y = 1; y <= 10; y++) {
+        text += generatednames[y-1] + "<br>";
+    }
+    document.getElementById("generatednames").innerHTML = text;
+}
+
 
 /*
 function genrandomstat() {
