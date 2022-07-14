@@ -68,6 +68,11 @@ footer {
     margin-top: 50px;
 }
 
+.col-md-6{
+    display:flex;
+    justify-content: center;
+    padding-right: 0;
+}
 .row{
     align-items: center;
 }
@@ -108,7 +113,21 @@ footer {
 
 .charactersbtn {
     height: 5rem;
-    min-width: 35px;
+    width: 20rem;
+    font-size:2rem;
+    text-align:center;
+    color: darkred;
+    font-family: Algerian, serif;
+    background-color: #F5F5DC;
+    border: solid darkred;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.pagechangerbutton {
+    height: 5rem;
     font-size:2rem;
     text-align:center;
     color: darkred;
