@@ -107,6 +107,7 @@ footer {
     height: 5rem;
     min-width: 35px;
     font-size:2rem;
+    text-align:center;
     color: darkred;
     font-family: Algerian, serif;
     background-color: #F5F5DC;
