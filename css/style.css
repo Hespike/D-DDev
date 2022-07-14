@@ -105,6 +105,7 @@ footer {
 
 .charactersbtn {
     height: 5rem;
+    min-width: 35px;
     font-size:2rem;
     color: darkred;
     font-family: Algerian, serif;
