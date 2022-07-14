@@ -68,6 +68,9 @@ footer {
     margin-top: 50px;
 }
 
+.row{
+    align-items: center;
+}
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: darkred;
 }
