@@ -110,7 +110,7 @@ footer {
 }
 
 .charactersbtn {
-    height: 5rem;
+    height: 6rem;
     width: 20rem;
     font-size:2rem;
     text-align:center;
@@ -120,9 +120,13 @@ footer {
     border: solid darkred;
     justify-content: center;
     align-items: center;
-    display: flex;
     text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 
 .pagechangerbutton {
     height: 5rem;
